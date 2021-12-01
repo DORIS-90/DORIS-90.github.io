@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="iso-8859-1">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <title>Este texto es el título del documento</title>
+  <link rel="stylesheet" href="misestilos.css">
+  <script src="micodigo.js"></script>
+</head>
+<body>
+<div id="agrupar">
+  <header id="cabecera">
+    <h1>Este es el título principal del sitio web</h1>
+  </header>
+  <nav id="menu">
+    <ul>
+      <li>principal</li>
+      <li>fotos</li>
+      <li>videos</li>
+      <li>contacto</li>
+    </ul>
+  </nav>
+  <section id="seccion">
+    <article>
+      <header>
+        <hgroup>
+          <h1>Título del mensaje uno</h1>
+          <h2>Subtítulo del mensaje uno</h2>
+        </hgroup>
+        <time datetime="2011-12-10" pubdate>publicado 10-12-2011
+        </time>
+      </header>
+      Este es el texto de mi primer mensaje
+      <figure>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apple" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffec00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="12" cy="14" r="7" />
+  <path d="M12 11v-6a2 2 0 0 1 2 -2h2v1a2 2 0 0 1 -2 2h-2" />
+  <path d="M10 10.5c1.333 .667 2.667 .667 4 0" />
+</svg>
+
+        <figcaption>
+          Esta es la imagen del primer mensaje
+        </figcaption>
+      </figure>
+
+    </article>
+    <article>
+      <header>
+        <hgroup>
+          <h1>Título del mensaje dos</h1>
+          <h2>Subtítulo del mensaje dos</h2>
+        </hgroup>
+        <time datetime="2011-12-15" pubdate>publicado 15-12-2011
+        </time>
+      </header>
+      Este es el texto de mi segundo mensaje
+
+    </article>
+    <div id="principal">
+      <p>Hacer Clic</p>
+      <p>No puede hacer Clic</p>
+    </div>
+  <aside id="columna">
+    <blockquote>Mensaje número uno</blockquote>
+    <blockquote>Mensaje número dos</blockquote>
+  </aside>
+  <h1 class="register-title">Welcome</h1>
+    <form class="register">
+      <div class="register-switch">
+        <input type="radio" name="sex" value="F" id="sex_f" class="register-switch-input" checked>
+        <label for="sex_f" class="register-switch-label">Female</label>
+        <input type="radio" name="sex" value="M" id="sex_m" class="register-switch-input">
+        <label for="sex_m" class="register-switch-label">Male</label>
+      </div>
+      <input type="email" class="register-input" placeholder="Email address">
+      <input type="password" class="register-input" placeholder="Password">
+      <input type="submit" value="Create Account" class="register-button">
+    </form>
+
+  <footer id="pie">
+    Derechos Reservados &copy; 2010-2011
+  </footer>
+</div>
+</body>
+</html>
